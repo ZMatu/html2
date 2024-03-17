@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matu-dev</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <audio id="relojes" src="http://45.235.99.104:56111/45_235_99_104_27554/reventados.mp3"></audio>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logoto.png" alt="logo">
+        </div>
+        <div>
+            <nav>
+                <a class="nav-link" href="#Inicio">Boton1</a>
+                <a class="nav-link" href="#Inicio">Inicio</a>
+                <a class="nav-link" href="#Inicio">Boton2</a>
+            </nav>
+            <script>
+                var audio = document.getElementById("relojes");
+                function play() {
+                    audio.play();
+                }
+                function stop() {
+                    audio.pause();
+                    audio.currentTime = 0;
+                }
+            </script>
+        </div>
+        <section class="main">
+            <img src="img/gojo.jpg" alt="profile">
+        </section>
+    </header>
+    <button class="nav-boton" onclick="play()">play</button>
+    <button class="nav-boton" onclick="stop()">stop</button>
+    <footer>© ZMatu 2024 </footer>
+</body>
+
+</html>
