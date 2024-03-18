@@ -40,10 +40,16 @@ footer {
     height: 100px;
     margin-top: 100px;
     border-color: black;
+    box-sizing: 20px;
+    box-shadow: 0px 15px 15px rgb(113, 4, 134);
+
+    border-radius: 20px;
+    border-style: solid;
 }
 
 .nav-boton {
     background-color: #9a1ce2;
+   padding-right: 20px;
     border: none;
     border-radius: 40px;
     background: rgba(106, 12, 129, 0.781);
