@@ -89,7 +89,7 @@ footer {
     border-style: solid;
 }
 
-.nav-boton {
+.botones {
     background-color: #9a1ce2;
     padding-right: 20px;
     border-style: solid;
@@ -97,7 +97,7 @@ footer {
     background: rgba(106, 12, 129, 0.781);
 }
 
-.nav-boton:hover {
+.botones:hover {
     background-color: #9a1ce2;
     background: #9a1ce2;
 }

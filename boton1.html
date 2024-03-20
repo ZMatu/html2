@@ -7,7 +7,7 @@
     <title>matu-dev</title>
     <link rel="stylesheet" href="css/boton1.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <audio id="relojes" src="http://45.235.99.104:56111/45_235_99_104_27554/clan.mp3"></audio>
+    <audio id="relojes" src="http://45.235.99.104:56111/45_235_99_104_27554/toy.mp3"></audio>
 </head>
 
 <body>
@@ -19,12 +19,14 @@
             <nav>
                 <a class="nav-link" href="#Inicio">Boton1</a>
                 <a class="nav-link" href="index.html">Inicio</a>
-                <a class="nav-link" href="#Inicio">Boton2</a>
+                <a class="nav-link" href="boton2.html">Boton2</a>
             </nav>
             <script>
                 var audio = document.getElementById("relojes");
+                audio.volume=0.1;
                 function play() {
-                    audio.play();
+                    /* audio.volume=0.2; */
+                    audio.play(); 
                 }
                 function stop() {
                     audio.pause();
